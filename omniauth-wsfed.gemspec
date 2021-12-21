@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/kbeckman/omniauth-wsfed'
   gem.license       = 'MIT'
 
-  gem.add_runtime_dependency 'omniauth',          '~> 1.2', '>= 1.2.2'
+  gem.add_runtime_dependency 'omniauth',          '~> 2.0', '>= 2.0.0'
   gem.add_runtime_dependency 'xmlcanonicalizer',  '~> 0.1', '>= 0.1.2'
 
   gem.add_development_dependency 'rspec',     '~> 2.12',  '>= 2.12.0'
